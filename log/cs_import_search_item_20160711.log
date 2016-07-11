@@ -1,0 +1,16 @@
+# Logfile created on 2016-07-11 08:46:20 +0000 by logger.rb/47272
+I, [2016-07-11 08:46:20#30053]  INFO -- : start execution
+E, [2016-07-11 08:46:20#30053] ERROR -- : uninitialized constant Sqs::Queue::Config::CloudSearchConfigure::Pixta (NameError)
+/home/ubuntu/aws_sqs/lib/sqs/queue/config/cloud_search_configure.rb:32:in `sqs_adapter'
+/home/ubuntu/aws_sqs/lib/sqs/queue/config/cloud_search_configure.rb:36:in `queue_poller'
+/home/ubuntu/aws_sqs/lib/sqs/queue/pollers/cloud_search_importation.rb:24:in `execute!'
+lib/sqs/script/cloud_search_importation.rb:10:in `<main>'
+I, [2016-07-11 08:48:20#30175]  INFO -- : start execution
+E, [2016-07-11 08:48:20#30175] ERROR -- : uninitialized constant Sqs::Queue::Config::CloudSearchConfigure::Pixta (NameError)
+/home/ubuntu/aws_sqs/lib/sqs/queue/config/cloud_search_configure.rb:32:in `sqs_adapter'
+/home/ubuntu/aws_sqs/lib/sqs/queue/config/cloud_search_configure.rb:36:in `queue_poller'
+/home/ubuntu/aws_sqs/lib/sqs/queue/pollers/cloud_search_importation.rb:24:in `execute!'
+lib/sqs/script/cloud_search_importation.rb:10:in `<main>'
+I, [2016-07-11 08:51:19#30188]  INFO -- : start execution
+I, [2016-07-11 08:51:19#30188]  INFO -- : oh my god!!! the message here hrehre hrehre
+I, [2016-07-11 08:51:19#30188]  INFO -- : finish execution...

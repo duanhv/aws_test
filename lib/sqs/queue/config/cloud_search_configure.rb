@@ -15,7 +15,7 @@ module Sqs::Queue::Config::CloudSearchConfigure
     {
       wait_time_seconds: 20,
       max_number_of_messages: 1,
-      visibility_timeout: 1800,
+      visibility_timeout: 10,
       skip_delete: true
     }
   end

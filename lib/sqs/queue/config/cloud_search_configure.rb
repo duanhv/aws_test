@@ -8,8 +8,8 @@ end
 module Sqs::Queue::Config::CloudSearchConfigure
   QUEUE_NAME = "cs_import_search_item".freeze
   AWS_REGION = "us-west-2"
-  AWS_ACCESS_KEY_ID = "AKIAIW4YAD7CAWY27ILQ"
-  AWS_SECRET_ACCESS_KEY = "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"
+  AWS_ACCESS_KEY_ID = ""
+  AWS_SECRET_ACCESS_KEY = "+RX"
 
   def poller_config
     {
